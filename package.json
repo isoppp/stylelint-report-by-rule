@@ -1,0 +1,36 @@
+{
+  "name": "stylelint-report-by-rule",
+  "version": "0.0.1",
+  "description": "Generate a report in which stylelint error output is organized by rule",
+  "bin": {
+    "stylelint-report-by-rule": "stylelint-report-by-rule.js"
+  },
+  "scripts": {
+    "dev": "./bin/stylelint-report-by-rule.js \"yarn --silent run stylelint -f json \"example/*.*\"\"",
+    "format": "eslint --fix --ext .js .",
+    "lint": "eslint --ext .js .",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isoppp/stylelint-report-by-rule.git"
+  },
+  "keywords": [
+    "stylelint",
+    "node.js",
+    "javascript",
+    "report",
+    "tool"
+  ],
+  "author": "isoppp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isoppp/stylelint-report-by-rule/issues"
+  },
+  "homepage": "https://github.com/isoppp/stylelint-report-by-rule#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "stylelint": "^9.2.0",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
