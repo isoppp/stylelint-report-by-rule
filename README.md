@@ -20,7 +20,7 @@ Generate a report in which stylelint error output is organized by rule
         "block-opening-brace-space-before": 327,
         "declaration-block-trailing-semicolon": 412,
         ...
-
+}
 ```
 
 ## similar tools
