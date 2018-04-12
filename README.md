@@ -1,0 +1,1 @@
+# stylelint-report-by-rule
