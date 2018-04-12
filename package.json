@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Generate a report in which stylelint error output is organized by rule",
   "bin": {
-    "stylelint-report-by-rule": "stylelint-report-by-rule.js"
+    "stylelint-report-by-rule": "bin/stylelint-report-by-rule.js"
   },
   "scripts": {
     "dev": "./bin/stylelint-report-by-rule.js \"yarn --silent run stylelint -f json \"example/*.*\"\"",
